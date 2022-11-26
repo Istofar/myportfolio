@@ -1,8 +1,17 @@
-import React from "react";
-import "./services.css";
+// import React from "react";
+// import "./services.css";
 
-const Services = () => {
-  return <div>Services</div>;
-};
+// const Services = () => {
+//   return (
+//     <section id="services">
+//       <h5>What I Offer</h5>
+//       <h2>Services</h2>
 
-export default Services;
+//       <div className="container services__container">
+//         <article className="services"></article>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default Services;

@@ -3,8 +3,20 @@ import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 // import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
+import { useRef } from "react"
+import emailjs from "emailjs-com"
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("service_8zswx3t", "template_v8hqpve", form.current, "9hkjoQR5H7is4BmuA")
+
+    e.target.reset()
+  }
+ 
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -25,7 +37,7 @@ const Contact = () => {
             <h4>WhatsApp</h4>
             <h5>+2349023463644</h5>
             <a
-              href="https://api.whatsapp.com/send?phone=+2349023463644"
+              href="https://api.whatsapp.com/send?phone=09023463644"
               target="_blank"
             >
               Send a mesage
@@ -33,7 +45,7 @@ const Contact = () => {
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"

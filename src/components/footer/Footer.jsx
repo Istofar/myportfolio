@@ -30,9 +30,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href=""><IoLogoTwitter /></a>
-        <a href=""><BsYoutube /></a>
-        <a href=""><BsWhatsapp /></a>
+        <a href="https://twitter.com/istofarsenpai?s=09"><IoLogoTwitter /></a>
+        <a href="http://www.youtube.com/@istofar560"><BsYoutube /></a>
+        <a href="https://api.whatsapp.com/send?phone=09023463644"><BsWhatsapp /></a>
       </div>
 
       <div className="footer__copyright">

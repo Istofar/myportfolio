@@ -1,10 +1,10 @@
 import React from "react";
-import CV from "../../assets/cv.pdf";
+
 
 const CTA = () => {
   return (
     <div className="cta">
-      <a href={CV} download className="btn">
+      <a href="https://api2.sololearn.com/v2/certificates/CT-FZQIFJDJ/image/png" download className="btn">
         Download CV
       </a>
       <a href="#contact" className="btn btn-primary">

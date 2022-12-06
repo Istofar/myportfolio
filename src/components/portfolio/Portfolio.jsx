@@ -30,7 +30,7 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
-            <h3>React Clone</h3>
+            <h3>Netflix Clone</h3>
             <div className="portfolio__item-cta">
               <a
                 href="https://github.com/Istofar/Netflix"

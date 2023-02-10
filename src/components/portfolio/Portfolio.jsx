@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/portfolio2.png";
 import IMG3 from "../../assets/portfolio3.png";
+import IMG4 from "../../assets/portfolio4.png";
 
 const Portfolio = () => {
   return (
@@ -63,6 +64,28 @@ const Portfolio = () => {
               </a>
               <a
                 href="https://airbnb-cloneee.web.app/"
+                className="btn btn-primary"
+                target="blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="" />
+            <h3>A Modern Restaurant App</h3>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/Istofar/my-restaurant"
+                className="btn"
+                target="blank"
+              >
+                Github
+              </a>
+              <a
+                href="https://my-restaurant-omega.vercel.app"
                 className="btn btn-primary"
                 target="blank"
               >
